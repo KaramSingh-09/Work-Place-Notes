@@ -1,0 +1,24 @@
+create table st_rishab ( name char(20)0;
+
+desc st_rishab;
+
+insert into st_rishab values('Raj');
+
+insert into st_rishab value('&name');
+
+commit;
+
+select *from st_rishab;
+
+delete from st_rishab where name="Kanika';
+
+rollback;
+
+
+
+
+create table st_rishab1 ( name varchar2(20) null, roll_no varchar2(20) primary key);
+
+insert into st_rishab1 ('&name','&roll_no');
+
+select *from st_rishab1;
